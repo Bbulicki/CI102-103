@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dip" >
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:focusable="false"
+        android:textSize="43px"
+        android:textColor="#7b7b7b"
+        android:focusableInTouchMode="false"
+        android:text="CheckBox" />
+    <Button android:id="@+id/buddiesSchedule"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:textColor="#26a69a"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button"
+        android:text="View Schedule"
+        android:layout_alignParentRight="true"/>
+
+
+
+</RelativeLayout>

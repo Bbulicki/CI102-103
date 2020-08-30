@@ -1,0 +1,188 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:padding="10dp"
+            android:text="Buddies" android:textSize="70px" android:gravity="center" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchBuddies"
+            android:maxLines="1"
+            android:textColor="#7b7b7b"
+            android:hint="Search for a buddy..."/>
+
+        <ListView android:id="@+id/yourbuddies" android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
+
+
+<!--
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="68dp"
+                android:layout_height="74dp"
+                app:srcCompat="@mipmap/ic_launcher" />
+            <TextView
+                android:layout_width="93dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="Sam C."
+                android:ems="10" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="68dp"
+                android:layout_height="74dp"
+                app:srcCompat="@mipmap/ic_launcher" />
+            <TextView
+                android:layout_width="93dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="Sita R."
+                android:ems="10" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="68dp"
+                android:layout_height="74dp"
+                app:srcCompat="@mipmap/ic_launcher" />
+            <TextView
+                android:layout_width="93dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="Sanobar L."
+                android:ems="10" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="68dp"
+                android:layout_height="74dp"
+                app:srcCompat="@mipmap/ic_launcher" />
+            <TextView
+                android:layout_width="93dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="Brandin B."
+                android:ems="10" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="68dp"
+                android:layout_height="74dp"
+                app:srcCompat="@mipmap/ic_launcher" />
+            <TextView
+                android:layout_width="93dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="Chris P."
+                android:ems="10" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="68dp"
+                android:layout_height="74dp"
+                app:srcCompat="@mipmap/ic_launcher" />
+            <TextView
+                android:layout_width="93dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="Briana S."
+                android:ems="10" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="68dp"
+                android:layout_height="74dp"
+                app:srcCompat="@mipmap/ic_launcher" />
+            <TextView
+                android:layout_width="93dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="John S."
+                android:ems="10" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="68dp"
+                android:layout_height="74dp"
+                app:srcCompat="@mipmap/ic_launcher" />
+            <TextView
+                android:layout_width="93dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="Sabah L."
+                android:ems="10" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="68dp"
+                android:layout_height="74dp"
+                app:srcCompat="@mipmap/ic_launcher" />
+            <TextView
+                android:layout_width="93dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="Zach R."
+                android:ems="10" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_column="0"
+            android:layout_row="11">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/addBuddiesButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="@dimen/fab_margin"
+                android:gravity="center"
+                android:text="+"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:elevation="16dp"
+                android:text="+"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white" />
+                </FrameLayout>
+
+    </GridLayout>
+    -->
+
+    <!--&gt;-->

@@ -1,0 +1,89 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="136dp"
+            android:layout_margin="0dp"
+            android:src="@drawable/buddyu" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/facebookButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp" />
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/googleButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="412dp"
+            android:layout_height="85dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:hint="Enter your Email"
+
+            android:inputType="textEmailAddress"
+            android:textColor="#7b7b7b" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="412dp"
+            android:layout_height="85dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:hint="Enter your Password"
+            android:inputType="textPassword"
+            android:textColor="#7b7b7b"/>
+
+
+        <Button
+            android:id="@+id/buttonsignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="31dp"
+            android:background="@drawable/button"
+            android:gravity="center"
+            android:text="Register with Email"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button"
+            android:textColor="#26a69a" />
+
+        <TextView
+            android:id="@+id/signin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Already have an account?  Login here! " />
+
+
+    </LinearLayout>
+</FrameLayout>

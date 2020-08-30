@@ -1,0 +1,39 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/classes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Classes"
+        android:gravity="center"
+        android:textSize="70px" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchClasses"
+        android:maxLines="1"
+        android:textColor="#7b7b7b"
+        android:hint="Search for a class..."/>
+
+    <ListView
+        android:id="@+id/courses"
+        android:layout_width="match_parent"
+        android:textColor="#7b7b7b"
+        android:layout_height="match_parent"/>
+
+
+
+</LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

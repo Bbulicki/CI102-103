@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#26a69a</color>
+    <!--#3F51B5
+    719faa
+#719faa
+    #719faa-->
+    <color name="colorPrimaryDark">#26a69a</color>
+    <!--#303F9F
+#52727a
+    -->
+    <color name="colorAccent">#6ac6af</color>
+
+    <!--#FF4081
+    #f45e60
+    -->
+
+    <color name="black_overlay">#66000000</color>
+    <color name="navMenuTextColor">#7b7b7b</color>
+</resources>
+
+
+
+
